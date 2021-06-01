@@ -1,4 +1,4 @@
-package Chapter08.Homework11;
+package learncode.Chapter08.Homework11;
 
 public class Students extends Person{
     public int g = 1;

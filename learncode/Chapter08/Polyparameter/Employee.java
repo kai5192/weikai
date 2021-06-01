@@ -1,4 +1,4 @@
-package Chapter08.Polyparameter;
+package learncode.Chapter08.Polyparameter;
 /*
 包含姓名和月工资，以及计算年工资getAnnual的方法
 普通员工继承了员工，经理多了奖金bonus属性和管理manage方法

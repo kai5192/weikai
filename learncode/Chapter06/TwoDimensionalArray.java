@@ -1,4 +1,4 @@
-package Chapter06;
+package learncode.Chapter06;
 
 public class TwoDimensionalArray {
     public static void main(String[] args){

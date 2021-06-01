@@ -1,4 +1,4 @@
-package Chapter04;
+package learncode.Chapter04;
 public class Homework {
     public static void main(String[] args){
          int x1 = 10 / 3;

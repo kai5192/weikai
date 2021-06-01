@@ -1,4 +1,4 @@
-package Chapter08.PolyAraay;
+package learncode.Chapter08.PolyAraay;
 
 public class Students extends Person {
     private double score;

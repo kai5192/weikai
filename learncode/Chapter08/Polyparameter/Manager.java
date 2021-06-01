@@ -1,4 +1,4 @@
-package Chapter08.Polyparameter;
+package learncode.Chapter08.Polyparameter;
 //经理多了奖金bonus属性和管理manage方法
 public class Manager extends Employee{
     private double bonus;

@@ -1,4 +1,4 @@
-package Chapter08.Homework05;
+package learncode.Chapter08.Homework05;
 
 public class Peasant extends Employee{
     public Peasant(int work_date, double work_sakary) {

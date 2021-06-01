@@ -1,4 +1,4 @@
-package Chapter08.Homework03;
+package learncode.Chapter08.Homework03;
 
 public class SubProfessor extends Professor {
     public SubProfessor(String name, int age, String job, double salary) {

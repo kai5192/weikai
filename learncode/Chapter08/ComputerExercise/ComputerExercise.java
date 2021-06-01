@@ -1,4 +1,4 @@
-package Chapter08.ComputerExercise;
+package learncode.Chapter08.ComputerExercise;
 
 public class ComputerExercise {
     //编写Computer类，包含cpu\内存、硬盘等属性，getdetail方法用于返回Computer的详细信息

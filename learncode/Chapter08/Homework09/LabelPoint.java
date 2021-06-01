@@ -1,4 +1,4 @@
-package Chapter08.Homework09;
+package learncode.Chapter08.Homework09;
 
 public class LabelPoint extends Point {
     private String label;

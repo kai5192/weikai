@@ -1,4 +1,4 @@
-package Chapter08.Homework05;
+package learncode.Chapter08.Homework05;
 
 public class Employee {
     //属性：工资，工作天数（共有）

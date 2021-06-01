@@ -1,4 +1,4 @@
-package Chapter08.Homework02;
+package learncode.Chapter08.Homework02;
 
 /**
  * 写出四个访问修饰符的访问权限

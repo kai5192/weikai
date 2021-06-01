@@ -1,4 +1,4 @@
-package Chapter08.Homework11;
+package learncode.Chapter08.Homework11;
 //两个方法
 public class Person {
     public int g = 0;

@@ -1,4 +1,4 @@
-package Chapter08.Homework10;
+package learncode.Chapter08.Homework10;
 
 public class Test {
     public static void main(String[] args) {

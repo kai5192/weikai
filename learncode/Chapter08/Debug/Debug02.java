@@ -1,4 +1,4 @@
-package Chapter08.Debug;
+package learncode.Chapter08.Debug;
 
 import java.util.Arrays;
 

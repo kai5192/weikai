@@ -1,4 +1,4 @@
-package Chapter08.PolyAraay;
+package learncode.Chapter08.PolyAraay;
 //一个Person对象、2个Student对象和两个Teacher对象
 //统一放数组中、并调用say方法
 public class Test {

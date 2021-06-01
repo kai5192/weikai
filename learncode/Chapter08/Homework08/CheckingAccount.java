@@ -1,4 +1,4 @@
-package Chapter08.Homework08;
+package learncode.Chapter08.Homework08;
 
 public class CheckingAccount extends BankAccount{
     private double interest;//手续费

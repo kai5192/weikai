@@ -1,4 +1,4 @@
-package Chapter08.Homework10;
+package learncode.Chapter08.Homework10;
 
 import java.util.Objects;
 

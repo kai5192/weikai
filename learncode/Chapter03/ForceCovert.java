@@ -1,4 +1,4 @@
-package Chapter03;
+package learncode.Chapter03;
 
 public class ForceCovert {
     //编写一个main方法

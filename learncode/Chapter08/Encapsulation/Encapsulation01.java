@@ -1,4 +1,4 @@
-package Chapter08.Encapsulation;
+package learncode.Chapter08.Encapsulation;
 
 public class Encapsulation01 {
     public static void main(String[] args){

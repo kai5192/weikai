@@ -1,4 +1,4 @@
-package Chapter08.Object;
+package learncode.Chapter08.Object;
 
 public class Test {
     public static void main(String[] args) {

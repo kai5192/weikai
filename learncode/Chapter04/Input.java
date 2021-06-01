@@ -1,4 +1,4 @@
-package Chapter04;
+package learncode.Chapter04;
 import java.util.Scanner;
 public class Input {
     //编写一个main方法

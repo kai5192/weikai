@@ -1,4 +1,4 @@
-package Chapter08.ComputerExercise;
+package learncode.Chapter08.ComputerExercise;
 
 public class Test {
     public static void main(String[] srgs){

@@ -1,4 +1,4 @@
-package Chapter04;
+package learncode.Chapter04;
 
 public class ArithmeticOperatorExercise02 {
     public static void main(String[] args){

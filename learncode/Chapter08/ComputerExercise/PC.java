@@ -1,4 +1,4 @@
-package Chapter08.ComputerExercise;
+package learncode.Chapter08.ComputerExercise;
 
 //编写PC子类，继承Computer类，添加特有属性
 //打印信息

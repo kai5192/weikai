@@ -1,4 +1,4 @@
-package Chapter03;
+package learncode.Chapter03;
 //字符类型使用细节
 /*  1. 字符常量是单引号（''）括起来的单个字符。(""表示字符串) 例如：
        char c1 = 'a' ；char c2 = '中' char c3 = '9'；

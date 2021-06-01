@@ -1,4 +1,4 @@
-package Chapter06;
+package learncode.Chapter06;
 import java.util.Scanner;
 public class ArrayAdd {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package Chapter08.Object;
+package learncode.Chapter08.Object;
 //判断两个Person对象的内容是否相等，如果两个对象的属性值都一样
 //则返回true,反之返回false
 public class Person {

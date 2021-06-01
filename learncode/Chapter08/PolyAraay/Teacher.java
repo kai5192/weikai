@@ -1,4 +1,4 @@
-package Chapter08.PolyAraay;
+package learncode.Chapter08.PolyAraay;
 
 public class Teacher extends Person {
     private double salary;

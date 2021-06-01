@@ -1,4 +1,4 @@
-package Chapter08.Super;
+package learncode.Chapter08.Super;
 
 public class A {
     //4 个属性

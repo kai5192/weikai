@@ -1,4 +1,4 @@
-package Chapter06;
+package learncode.Chapter06;
 
 public class Homowork04 {
     public static void main(String[] args){

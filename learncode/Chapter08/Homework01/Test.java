@@ -1,4 +1,4 @@
-package Chapter08.Homework01;
+package learncode.Chapter08.Homework01;
 //定义一个Person类，初始化Person对象组，有三个Person对象
 //并按照age从大到小进行排序
 public class Test {

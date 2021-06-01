@@ -1,4 +1,4 @@
-package com.company.Chapter0102;
+package learncode.Chapter0102;
 
 public class Homework02 {
     public static void main(String[] args){

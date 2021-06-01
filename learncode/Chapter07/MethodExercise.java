@@ -1,4 +1,4 @@
-package Chapter07;
+package learncode.Chapter07;
 
 public class MethodExercise {
     public static void main(String[] args){

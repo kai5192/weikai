@@ -1,4 +1,4 @@
-package Chapter08.Homework15;
+package learncode.Chapter08.Homework15;
 
 public class B extends A {
     private int a ;

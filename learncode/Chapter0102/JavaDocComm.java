@@ -1,4 +1,4 @@
-package com.company.Chapter0102;
+package learncode.Chapter0102;
 /**
  * @author weikai
  * @version 0.1

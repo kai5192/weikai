@@ -1,4 +1,4 @@
-package Chapter08.Polyparameter;
+package learncode.Chapter08.Polyparameter;
 
 public class Test {
     public static void main(String[] args) {

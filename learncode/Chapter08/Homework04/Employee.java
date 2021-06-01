@@ -1,4 +1,4 @@
-package Chapter08.Homework04;
+package learncode.Chapter08.Homework04;
 
 public class Employee {
     private String name;

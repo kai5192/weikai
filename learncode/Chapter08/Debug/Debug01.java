@@ -1,4 +1,4 @@
-package Chapter08.Debug;
+package learncode.Chapter08.Debug;
 
 public class Debug01 {
     public static void main(String[] args) {

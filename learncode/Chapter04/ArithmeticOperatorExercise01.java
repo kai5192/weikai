@@ -1,4 +1,4 @@
-package Chapter04;
+package learncode.Chapter04;
 
 public class ArithmeticOperatorExercise01 {
     //编写一个 main 方法

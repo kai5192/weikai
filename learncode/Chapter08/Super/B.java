@@ -1,4 +1,4 @@
-package Chapter08.Super;
+package learncode.Chapter08.Super;
 
 public class B extends A{
     //访问父类的属性，但不能访问父类private属性

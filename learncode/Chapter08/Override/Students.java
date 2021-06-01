@@ -1,4 +1,4 @@
-package Chapter08.Override;
+package learncode.Chapter08.Override;
 //继承Person类，增加id\score属性/private,以及构造器
 //say方法
 public class Students extends Person{
