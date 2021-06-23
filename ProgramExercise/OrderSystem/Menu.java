@@ -48,8 +48,8 @@ public class Menu {
         //5.定义鱼类
         Fish fish1 = new Fish("鲤 鱼", new String[]{"豆瓣", "红烧", "家炖"}, 30);
         Fish fish2 = new Fish("刀 鱼", new String[]{"干炸", "红烧", "家炖"}, 16);
-        Fish fish3 = new Fish("鲤 鱼", new String[]{"干炸", "干煎"}, 30);
-        Fish fish4 = new Fish("鲤 鱼", new String[]{"干炸", "家炖"}, 30);
+        Fish fish3 = new Fish("小黄鱼", new String[]{"干炸", "干煎"}, 30);
+        Fish fish4 = new Fish("青鱼", new String[]{"干炸", "家炖"}, 30);
         danPin.showDetail();
         mianTiao.showDetail();
         douzi.showDetail();
@@ -59,6 +59,11 @@ public class Menu {
         fish2.showDetail();
         fish3.showDetail();
         fish4.showDetail();
+        Map fishCollection = new HashMap();
+        fishCollection.put("鲤 鱼",30);
+        fishCollection.put("刀 鱼",16);
+        fishCollection.put("小黄鱼",30);
+        fishCollection.put("青鱼",30);
         System.out.println();
         shuiJiao.showDetail();
         //点餐
@@ -67,7 +72,7 @@ public class Menu {
         String detail = "";
         int temp;
         while (boo) {
-            System.out.println("请输入你要的食物");
+            System.out.println("请输入你要的食物（猪肉/炒面/炒饭/旦旦面/水饺/鱼类）");
             String orderFood = scanner.next();
             //1.是否为猪肉/炒面/炒饭/旦旦面
             if (typeDanPin.containsKey(orderFood)) {
@@ -75,15 +80,33 @@ public class Menu {
                 temp = scanner.nextInt();
                 price += temp * (int) typeDanPin.get(orderFood);
                 detail += orderFood + "  x" + temp + "\n";
+            }//是否为炒米炒面
+            else if(orderFood.equals("炒面")||orderFood.equals("炒米")){
+                System.out.println("请选择口味(鸡蛋炒面/火腿炒面/肉炒面/鸡蛋炒饭/扬州炒饭)");
+                String tasteMian = scanner.next();
+                System.out.println("您需要多少份？");
+                temp = scanner.nextInt();
+                price += temp * (int) typeDanPin.get(tasteMian);
+                detail += orderFood + "  x" + temp + "\n";
             }
-            //2.
+            //3.水饺
             else if (orderFood.equals("水饺")) {
                 System.out.println("请选择口味（素三鲜/酸菜油吱啦）");
                 String tasteShuijiao = scanner.next();
                 System.out.println("您需要多少份？");
                 temp = scanner.nextInt();
                 price += temp * (int) typeShuijiao.get(tasteShuijiao);
-                detail += orderFood + "  x" + temp + "\n";
+                detail += orderFood + "  x" + temp +"    口味为："+tasteShuijiao+ "\n";
+            }//4.鱼类
+            else if(orderFood.equals("鱼类")){
+                System.out.println("请选择种类（鲤 鱼/刀 鱼/小黄鱼/青鱼）");
+                String typeYu = scanner.next();
+                System.out.println("请选择对应的口味");
+                String tastYU = scanner.next();
+                System.out.println("您需要多少份？");
+                temp = scanner.nextInt();
+                price += temp * (int) fishCollection.get(typeYu);
+                detail += orderFood + "  x" + temp +"    口味为："+tastYU+ "\n";
             }
             else {
                 System.out.println("请输入正确的菜品");
@@ -103,7 +126,7 @@ public class Menu {
         System.out.println("订单编号：    "+orderCount);
         System.out.println("菜单详情：");
         System.out.println(detail);
-        System.out.println("订单总金额：   "+price);
+        System.out.println("订单总金额：   "+price+"元");
         System.out.println("折扣："    +"待开发");
         LocalDateTime ldt = LocalDateTime.now();
         DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
